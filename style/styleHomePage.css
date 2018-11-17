@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+}
+
+body, html{
+	height: 85%;
+}
+
+header{
+  font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  position: absolute;
+  z-index: 1;
+  height: 0.75em;
+  text-align: center;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 4em;  
+  color: white;
+  background: #667B8F;  
+  min-width: 100%;
+}
+
+
+footer {  
+  font: 90% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  text-align: right;
+  background: #E4E7E9;
+  color: #667B8F;
+  width: 100%;
+  min-width: 100%;
+  height: 1.5em;
+}
+
+h1{
+   font: 200% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+   margin-top: auto;
+   min-width: 100%;
+   padding-top: 0.5em;
+}
+
+h2{
+	text-align: left;
+}
+
+#title{
+	text-align: center;
+}
+
+body{
+    background: #E4E7E9;
+    font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 20px;
+	min-width: 50%;
+	min-height: 100%;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+#cssmenu {
+  z-index: 1;
+  background: #667B8F;
+  color: #3F3E3E;
+  list-style: none;
+  height: auto;
+  width: auto;
+  float: left;
+  margin-left: -3.7em;
+  position: absolute;
+}
+
+#cssmenu li {
+  font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #3F3E3E;
+  vertical-align: middle;
+}
+#cssmenu a{
+  background: #667B8F;
+  border-bottom: 1px solid #393939;
+  color: #3F3E3E;
+  display: block;
+  padding: 20px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#cssmenu li:first-child{
+  border-top: 1px solid #393939;
+}
+
+#cssmenu a:hover{
+  background: #2580a2 url("../images/hover.gif") left center no-repeat;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+
+aside{
+    float: left;
+    min-width: 100%;
+	z-index: 1;
+}
+
+article {
+    border-left: 0;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+	min-width: 1080px;
+}
+
+
+table#route{
+  font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  width: 50em;
+  height: 20em;
+  overflow: hidden;
+  text-align: center;
+  width: 50em; 
+  height: auto;
+}
+
+th#route{
+  font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  background-color: #667B8F;
+  color: #3F3E3E;
+}
+
+tr#route:nth-child(odd){
+  font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  background-color: #A5A5A5;
+}
+
+tr#route:nth-child(even){
+  font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  background-color: #D1D1D1;
+}
+
+tr#route:nth-child(odd):hover{
+  background-color: #667B8F;
+}
+
+tr#route:nth-child(even):hover{
+  background-color: #667B8F;
+}
+
+p{
+  font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  text-align: left;
+}
+
+span#stationOfUser{
+  background-color: red;
+}
+
+input, select
+{
+    border-radius: 8px;
+    border:solid 0.5px #3F3E3E;
+    padding:5px;
+}
+
+img#logo{
+    margin-top: -0.5em; 
+	margin-left: 1em;
+	width: 1.5em; 
+	height: 1.5em;
+}
+
+#logoBackground{
+	float: right;
+	height: 35%; 
+	width: 15%; 
+	min-height: 17em;
+	position: absolute; 
+	right: 2em; 
+	bottom: 5%;
+	overflow: hidden;
+    display: block;
+}
+
+a#titleBar{
+    text-decoration : none;
+	color: white;
+	text-align: center;
+	margin-left: -6%;
+}
+
+div#container{
+	width: auto;
+	min-height: 100%;
+	margin-bottom: -0.75em;
+	position: relative;
+}
+
+div#container:after{
+	content: "";
+	display: block;
+}
+
+#formSubmit{
+	cursor: pointer; 
+	font-size: large;  
+	height:50px; 
+	width:150px; 
+	background-color: #E4E7E9;
+}
+
+#formSubmit:hover{
+	background-color: #667B8F;
+}
+
+#formButt{
+	border-radius: 8px;
+    border:solid 0.5px #3F3E3E;
+	cursor: pointer; 
+	background-color: #E4E7E9;
+	height:50px; 
+	width:150px;
+	font-size: large;
+}
+
+#formButt:hover{
+	background-color: #667B8F;
+}
